@@ -1,0 +1,52 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*  settings */
+.body
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.DIV
+{
+    margin: 5px;
+    padding: 10px;
+    height: 100px;
+    width: 150px;
+    background-color: rgb(96, 4, 7);
+    border: 2px black solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DIV p
+{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.DIV:active
+{
+    /* (try adding some random commands to test it out) */
+    opacity: 75%;
+    /* for here, i made it so that the placement of the object changes */
+    margin-bottom: 100px;
+    /* (for this code, i used the ease-in-out transition) */
+    transition: ease;
+    /* dont forget to put the transition-duration AFTER the transition
+    (if there is) */
+    transition-duration: 2s;
+}
