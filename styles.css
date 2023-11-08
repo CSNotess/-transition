@@ -44,7 +44,7 @@
     opacity: 75%;
     /* for here, i made it so that the placement of the object changes */
     margin-bottom: 100px;
-    /* (for this code, i used the ease-in-out transition) */
+    /* (for this code, i used the ease transition) */
     transition: ease;
     /* dont forget to put the transition-duration AFTER the transition
     (if there is) */
